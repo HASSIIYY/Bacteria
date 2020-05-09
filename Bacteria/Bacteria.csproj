@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2061573-1F46-4472-A8EF-8C255E16179D}</ProjectGuid>
+    <ProjectGuid>{0746F751-AA54-4D83-9EAF-A8C526441697}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Bacteria</RootNamespace>
     <AssemblyName>Bacteria</AssemblyName>
@@ -53,6 +53,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

@@ -1,0 +1,15 @@
+F:\Documentation\GitHub\Bacteria\Bacteria\bin\Debug\Bacteria.exe.config
+F:\Documentation\GitHub\Bacteria\Bacteria\bin\Debug\Bacteria.exe
+F:\Documentation\GitHub\Bacteria\Bacteria\bin\Debug\Bacteria.pdb
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.csprojAssemblyReference.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\MainWindow.g.cs
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\App.g.cs
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria_MarkupCompile.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria_MarkupCompile.lref
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\MainWindow.baml
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.g.resources
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.Properties.Resources.resources
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.csproj.GenerateResource.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.csproj.CoreCompileInputs.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.exe
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\Bacteria.pdb
