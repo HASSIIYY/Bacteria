@@ -1,0 +1,6 @@
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\bin\Debug\ScriptsClassLibrary.dll
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\bin\Debug\ScriptsClassLibrary.pdb
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\obj\Debug\ScriptsClassLibrary.csprojAssemblyReference.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\obj\Debug\ScriptsClassLibrary.csproj.CoreCompileInputs.cache
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\obj\Debug\ScriptsClassLibrary.dll
+F:\Documentation\GitHub\Bacteria\Bacteria\ScriptsClassLibrary\obj\Debug\ScriptsClassLibrary.pdb

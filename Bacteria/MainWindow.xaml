@@ -5,11 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bacteria"
         mc:Ignorable="d"
-        Title="MainWindow"
-         Height="450" Width="800"
+        Title="Bacteria"
+         Height="1096" Width="1936"
+         WindowState="Maximized"
         >
     <Grid x:Name="GridNull" Background="#FFD8D8D8"
           >
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="LeftBar_GridNull"
+               Margin="7"
+               Background="#FFB00D0D"
+              >
+        </Grid>
+        <Grid x:Name="CenterScrin_GridNull"
+               Margin="7" Grid.Column="1"
+              />
     </Grid>
 </Window>

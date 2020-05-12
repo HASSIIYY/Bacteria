@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Documentation\GitHub\Bacteria\Bacteria\obj\Debug\
+F:\Documentation\GitHub\Bacteria\Bacteria\obj\Release\
 Bacteria
 none
 false
-DEBUG;TRACE
+TRACE
 F:\Documentation\GitHub\Bacteria\Bacteria\App.xaml
 11151548125
 
 5-2017746502
-14966951503
+14-1869514896
 MainWindow.xaml;
 
-False
+True
 
