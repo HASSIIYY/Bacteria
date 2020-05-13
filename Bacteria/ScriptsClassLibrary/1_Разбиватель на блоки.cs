@@ -14,7 +14,7 @@ namespace ScriptsClassLibrary
         public static double CountSht;
         public static void MethodDivideIntoBlocks(int count)
         {
-            CountSht = Math.Round((double)1043 * count / 1606, 0);
+            CountSht = Math.Round(10.4 * count / 16, 0);
             for (int j = 0; j < CountSht; j++)
             {
                 VariableMover.CenterScrin_GridNull.RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, GridUnitType.Star) });

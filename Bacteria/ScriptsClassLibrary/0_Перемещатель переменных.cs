@@ -11,23 +11,31 @@ namespace ScriptsClassLibrary
 {
     public class VariableMover
     {
+        public static int CrushinСounter = 0;
         public static Grid CenterScrin_GridNull;
-        public static void MethodForMovingVariables(Grid MethodCenterScrin_GridNull)
+        
+        public static void MethodForMovingVariables(Grid MethodCenterScrin_GridNull, TextBox MethodTextBoxGenerator, TextBlock MethodTextBlockGenerator)
         {
             CenterScrin_GridNull = MethodCenterScrin_GridNull;
+            
+            CrushinСounter += Convert.ToInt32(MethodTextBoxGenerator.Text);
 
-            DivideIntoBlocks.MethodDivideIntoBlocks(50);
+            DivideIntoBlocks.MethodDivideIntoBlocks(Convert.ToInt32(MethodTextBoxGenerator.Text)); Marker();
+            MethodTextBlockGenerator.Text = Convert.ToString(CrushinСounter);
+        }
 
+        private static void Marker()
+        {
             Random Rand = new Random();
             Border Person = new Border
             {
-                Background = new SolidColorBrush(Color.FromArgb((byte)Rand.Next(255), (byte)Rand.Next(255), (byte)Rand.Next(255), (byte)Rand.Next(255))),
-                //Background = (Brush)new BrushConverter().ConvertFrom("#FF474747"),
+                //Background = new SolidColorBrush(Color.FromArgb((byte)Rand.Next(255), (byte)Rand.Next(255), (byte)Rand.Next(255), (byte)Rand.Next(255))),
+                Background = (Brush)new BrushConverter().ConvertFrom("#FF474747"),
             };
             Grid.SetColumn(Person, 0);
             Grid.SetRow(Person, 0);
 
-            MethodCenterScrin_GridNull.Children.Add(Person);
+            CenterScrin_GridNull.Children.Add(Person);
         }
     }
 }

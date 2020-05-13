@@ -16,12 +16,40 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid x:Name="LeftBar_GridNull"
-               Margin="7"
-               Background="#FFB00D0D"
               >
+            <Border x:Name="Grid_LeftBar_GridNull"
+                     Margin="9" CornerRadius="5"
+                     Background="#FF7F7F7F"
+                    />
+
+            <Button x:Name="ButtonGenerator"
+                     Height="50" VerticalAlignment="Top"
+                     Margin="17" Background="#FF4B4B4B"
+                     Content="Сгенерировать сетку"
+                     FontSize="17" FontWeight="Bold" Click="ButtonGenerater_Click" 
+                    />
+            <TextBlock x:Name="TextBlockGenerator"
+                        Height="25" VerticalAlignment="Top"
+                        Margin="20,77,20,0" Background="#FF4B4B4B"
+                        Padding="10,2,0,0" Foreground="#FFDEDEDE"
+                        FontWeight="Bold" FontSize="14" 
+                       />
+            <TextBox x:Name="TextBoxGenerator"
+                      Height="25" VerticalAlignment="Top"
+                      Margin="20,112,20,0" Background="#FF4B4B4B"
+                      Padding="10,2,0,0" Text="10"
+                      FontWeight="Bold" FontSize="14" 
+                     />
         </Grid>
-        <Grid x:Name="CenterScrin_GridNull"
-               Margin="7" Grid.Column="1"
-              />
+        <Grid x:Name="CenterScrin_Obramlenie"
+               Margin="9" Grid.Column="1"
+              >
+            <Border Background="#FF7F7F7F"
+                     CornerRadius="5"
+                    />
+            <Grid x:Name="CenterScrin_GridNull"
+                   Margin="7" Background="#FFD8D8D8"
+                  />
+        </Grid>
     </Grid>
 </Window>

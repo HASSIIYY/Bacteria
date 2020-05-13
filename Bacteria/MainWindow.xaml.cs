@@ -18,10 +18,7 @@ namespace Bacteria
 {
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-            VariableMover.MethodForMovingVariables(CenterScrin_GridNull);
-        }
+        public MainWindow() => InitializeComponent();
+        private void ButtonGenerater_Click(object sender, RoutedEventArgs e) => VariableMover.MethodForMovingVariables(CenterScrin_GridNull, TextBoxGenerator, TextBlockGenerator);
     }
 }
