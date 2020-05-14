@@ -26,20 +26,45 @@
                      Height="50" VerticalAlignment="Top"
                      Margin="17" Background="#FF4B4B4B"
                      Content="Сгенерировать сетку"
-                     FontSize="17" FontWeight="Bold" Click="ButtonGenerater_Click" 
+                     FontSize="17" FontWeight="Bold"
+                     Click="ButtonGenerater_Click" 
                     />
-            <TextBlock x:Name="TextBlockGenerator"
+            
+            <TextBlock x:Name="Text_TextBlockGenerator"
                         Height="25" VerticalAlignment="Top"
-                        Margin="20,77,20,0" Background="#FF4B4B4B"
+                        Margin="20,77,20,0" Background="#FF3A3A3A"
                         Padding="10,2,0,0" Foreground="#FFDEDEDE"
-                        FontWeight="Bold" FontSize="14" 
+                        FontWeight="Bold" FontSize="13" 
+                        Text="Текущие разрешение сетки"
+                       />
+            <TextBlock x:Name="TextBlockGenerator"
+                        Height="21" VerticalAlignment="Top"
+                        Margin="20,101,20,0" Background="#FF4B4B4B"
+                        Padding="15,1,0,0" Foreground="#FFDEDEDE"
+                        FontWeight="Bold" FontSize="13" 
+                       />
+
+            <TextBlock x:Name="Text_TextBoxGenerator"
+                        Height="25" VerticalAlignment="Top"
+                        Margin="20,132,20,0" Background="#FF3A3A3A"
+                        Padding="10,2,0,0" Foreground="#FFDEDEDE"
+                        FontWeight="Bold" FontSize="13" 
+                        Text="Добавляющие дробление"
                        />
             <TextBox x:Name="TextBoxGenerator"
                       Height="25" VerticalAlignment="Top"
-                      Margin="20,112,20,0" Background="#FF4B4B4B"
+                      Margin="20,157,20,0" Background="#FF4B4B4B"
                       Padding="10,2,0,0" Text="10"
                       FontWeight="Bold" FontSize="14" 
                      />
+
+            <Button x:Name="ButtonColorBlock"
+                     Height="50" VerticalAlignment="Top"
+                     Margin="20,192,20,0" Background="#FF4B4B4B"
+                     Content="Заполнить сетку"
+                     FontSize="17" FontWeight="Bold"
+                     Click="ButtonColorBlock_Click" 
+                    />
         </Grid>
         <Grid x:Name="CenterScrin_Obramlenie"
                Margin="9" Grid.Column="1"
@@ -48,7 +73,7 @@
                      CornerRadius="5"
                     />
             <Grid x:Name="CenterScrin_GridNull"
-                   Margin="7" Background="#FFD8D8D8"
+                   Margin="7" Background="#FFA6A6A6"
                   />
         </Grid>
     </Grid>

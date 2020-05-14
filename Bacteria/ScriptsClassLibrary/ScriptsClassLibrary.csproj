@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="0_Перемещатель переменных.cs" />
     <Compile Include="1_Разбиватель на блоки.cs" />
+    <Compile Include="2_Marker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
