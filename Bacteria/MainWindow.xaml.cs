@@ -9,6 +9,6 @@ namespace Bacteria
 
         private void ButtonGenerater_Click(object sender, RoutedEventArgs e) => VariableMover.MethodForMovingVariables(CenterScrin_GridNull, TextBoxGenerator, TextBlockGenerator);
 
-        private void ButtonColorBlock_Click(object sender, RoutedEventArgs e) => Marker.MethodMarker();
+        private void ButtonColorBlock_Click(object sender, RoutedEventArgs e) => Marker.MethodRandomMarker();
     }
 }
